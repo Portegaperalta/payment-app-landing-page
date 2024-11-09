@@ -1,0 +1,122 @@
+:root {
+  --color-dark-bg: #1E1E1E;
+  --color-light-purple: #C0B6D2;
+  --color-normal-purple: #E9DCFF;
+  --color-dark-purple: #2B2D3D;
+  --color-white: #FFFFFF;
+}
+
+body {
+  padding-left: 100px;
+  padding-right: 100px;
+  font-family: "Poppins", serif;
+  background-color: var(--color-dark-bg);
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-navbar ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.header-navbar ul li {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.header-navbar ul li a {
+  text-decoration: none;
+  color: var(--color-white);
+  transition: 0.25s ease-in-out;
+}
+
+.header-navbar ul li a:hover {
+  color: var(--color-normal-purple);
+}
+
+.header-user-options {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.login-option {
+  margin-right: 10px;
+}
+
+.signup-option {
+  margin-right: 10px;
+}
+
+.header-user-options a {
+  text-decoration: none;
+  color: var(--color-dark-bg);
+  border: 2px solid var(--color-light-purple);
+  border-radius: 10px;
+  background-color: var(--color-light-purple);
+  padding: 10px 20px;
+  font-weight: 700;
+  transition: 0.25s ease-in-out;
+}
+
+.header-user-options a:hover {
+  background-color: var(--color-dark-purple);
+  color: var(--color-white);
+  border-color: var(--color-dark-purple);
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 120px;
+}
+
+.main-text {
+  margin-bottom: 50px;
+}
+
+.main-text h1 {
+  color: var(--color-light-purple);
+  font-weight: 500;
+  font-size: 1rem;
+  letter-spacing: 3px;
+}
+
+.main-text p {
+  color: var(--color-white);
+  font-size: 2.5rem;
+  font-weight: 600;
+  width: 15ch;
+}
+
+.download-button {
+  text-decoration: none;
+  color: var(--color-dark-purple);
+  border: 2px solid var(--color-normal-purple);
+  border-radius: 10px;
+  background-color: var(--color-normal-purple);
+  padding: 10px 20px;
+  font-weight: 700;
+  transition: 0.30s ease-in-out;
+}
+
+.download-button:hover {
+  background-color: var(--color-dark-purple);
+  color: var(--color-white);
+  border-color: var(--color-dark-purple);
+}
+
+.download-button:active {
+  color: var(--color-dark-purple);
+  background-color: var(--color-light-purple);
+}
+
+.download-button i {
+  font-weight: 700;
+}
